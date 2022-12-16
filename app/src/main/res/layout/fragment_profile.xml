@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.ProfileFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/UserImage"
+            android:src="@color/green"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textScaleX="2"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_gravity="center"
+            android:id="@+id/Name"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textScaleX="2"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/Email"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textScaleX="2"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/Address"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MobileNumber"
+            android:textScaleX="2"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_gravity="center"
+            android:id="@+id/MobileNumber"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textScaleX="2"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_gravity="center"
+            android:id="@+id/Gender"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DOB"
+            android:textScaleX="2"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_gravity="center"
+            android:id="@+id/DOB"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textScaleX="2"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_gravity="center"
+            android:id="@+id/Logout"/>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="5dp"
+            android:id="@+id/ViewComplaint">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Complaint and Result"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:gravity="center"
+
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/green"
+                android:textSize="18sp"/>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

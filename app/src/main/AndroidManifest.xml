@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/puc_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/puc_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PUC">
+        <activity
+            android:name=".activity.ViewComplaintAndResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerShowActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerMobileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CreateOfficerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AdminCreateOfficerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.VijilapuramActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.VellakuttaiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.NaickanurActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.NarasingapuramActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.NekkanamalaiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.NimmiyambattuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.PallipattuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.PeriyakurumbatheruActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.PethaveppambattuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.PoongulamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.ReddiurActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.SammanthikuppamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.ValayambattuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.VallipattuActivity"
+            android:exported="false"
+            android:label="@string/title_activity_vallipattu" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.VelathigamanibendaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.MitturActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.MarimanikuppamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.MadhanancheriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.KothakottaiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.JaffarabadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.GovindapuramActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.GollakuppamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.GirisamuthiramActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.ElayanagaramActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.EchangalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.DevasathanamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficerEmailActivity.BeemakulamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficersMainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+
+        <activity
+            android:name=".activity.AdminUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AdminMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.FullImagerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.UserMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.UserRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OfficersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.UserLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

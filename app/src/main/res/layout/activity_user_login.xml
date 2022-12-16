@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+
+    tools:context=".activity.UserLoginActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Sign In"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:textSize="25sp"
+        android:textAllCaps="true"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="@font/roboto_bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="@color/green"
+            app:startIconDrawable="@drawable/email"
+            app:startIconTint="@color/green"
+            android:padding="5dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email..."
+                android:inputType="textEmailAddress"
+                android:fontFamily="@font/roboto_bold"
+                android:id="@+id/Email"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            app:boxStrokeColor="@color/green"
+            app:startIconDrawable="@drawable/password"
+            app:passwordToggleTint="@color/green"
+            app:startIconTint="@color/green"
+            android:padding="5dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password..."
+                android:inputType="textPassword"
+                android:fontFamily="@font/roboto_bold"
+                android:id="@+id/Password"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:textColor="@color/green"
+            android:textSize="20sp"
+            app:strokeColor="@color/green"
+            android:fontFamily="@font/roboto_bold"
+            style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+            android:id="@+id/SignInBtn"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/SignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:gravity="center|bottom"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account?"
+            android:textSize="18dp"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/green"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create new one"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_marginLeft="5dp"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

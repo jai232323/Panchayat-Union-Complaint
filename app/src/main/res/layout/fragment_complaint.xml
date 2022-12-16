@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragment.ComplaintFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/green">
+
+        <TextView
+            android:id="@+id/your_complaint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/roboto_blackltalic"
+            android:padding="10dp"
+            android:text="Complaint register here"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textScaleX="1"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:layout_below="@id/your_complaint"
+            app:cardElevation="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/white">
+
+
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle_background">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        app:boxStrokeColor="@color/green"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Complainter Name..."
+                            android:inputType="textPersonName"
+                            android:id="@+id/Complainter_Name"/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        app:boxStrokeColor="@color/green"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Complainter MobileNumber..."
+                            android:inputType="phone"
+                            android:id="@+id/Complainter_MobileNumber"/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        app:boxStrokeColor="@color/green"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Complainter Address..."
+                            android:inputType="textPostalAddress"
+                            android:id="@+id/Complainter_Address"/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <Spinner
+                        android:id="@+id/Complainter_Village"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="16dp"
+                        android:background="@android:drawable/btn_dropdown"
+                        android:gravity="center"
+                        android:spinnerMode="dropdown" />
+                    <Spinner
+                        android:id="@+id/Complainter_Ward"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="16dp"
+                        android:background="@android:drawable/btn_dropdown"
+                        android:gravity="center"
+                        android:spinnerMode="dropdown" />
+                    <Spinner
+                        android:id="@+id/Complainter_Taluk"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="16dp"
+                        android:background="@android:drawable/btn_dropdown"
+                        android:gravity="center"
+                        android:spinnerMode="dropdown" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/MC_Complainter_ComplaintPhoto"
+                            android:layout_width="170dp"
+                            android:layout_height="170dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="5dp"
+                            app:cardCornerRadius="10dp"
+                            app:cardElevation="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:weightSum="2"
+                                android:orientation="vertical">
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:id="@+id/Complainter_ComplaintPhoto"
+                                    android:layout_width="160dp"
+                                    android:layout_height="150dp"
+                                    android:src="@drawable/problem_img"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_weight="1.8"
+                                    android:layout_marginTop="20dp"/>
+                                <TextView
+                                    android:id="@+id/ProblemText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Fix Problem Photo"
+                                    android:textColor="@color/red"
+                                    android:gravity="center"
+                                    android:layout_marginBottom="20dp"
+                                    android:textSize="15dp"
+                                    android:padding="10dp"
+                                    android:fontFamily="@font/roboto_bold"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+
+                        </com.google.android.material.card.MaterialCardView>
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/MC_Complainter_ProofPhoto"
+                            android:layout_width="170dp"
+                            android:layout_height="170dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            app:cardCornerRadius="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_weight="1"
+                            app:cardElevation="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:weightSum="2"
+                                android:orientation="vertical">
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:id="@+id/Complainter_ProofPhoto"
+                                    android:layout_width="160dp"
+                                    android:layout_height="150dp"
+                                    android:src="@drawable/proof_img1"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_weight="1.8"
+                                    android:layout_marginTop="20dp"/>
+                                <TextView
+                                    android:id="@+id/Proof_Text"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Fix Proof Photo"
+                                    android:textColor="@color/red"
+                                    android:gravity="center"
+                                    android:layout_marginBottom="20dp"
+                                    android:textSize="15dp"
+                                    android:padding="10dp"
+                                    android:fontFamily="@font/roboto_bold"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                    </LinearLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        app:boxStrokeColor="@color/green"
+
+                        android:layout_height="150dp">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Complaint Box..."
+                            android:maxLines="5"
+                            android:lines="5"
+                            android:inputType="text|textMultiLine"
+                            android:id="@+id/Complainter_Box"/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Submit"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textColor="@color/green"
+                        android:textSize="20sp"
+                        app:strokeColor="@color/green"
+                        android:fontFamily="@font/roboto_bold"
+                        style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                        android:id="@+id/Submit"
+                        android:layout_marginBottom="200dp"/>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </com.google.android.material.card.MaterialCardView>
+    </RelativeLayout>
+</LinearLayout>

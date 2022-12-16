@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/PUC/app/src/main/res/drawable/add_fab.xml" value="0.143" />
+        <entry key="..\:/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_admin.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_admin_create_officer.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_admin_main.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_create_officer.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_officer_email1.xml" value="0.22088353413654618" />
+        <entry key="..\:/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_officer_show.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_user_login.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_user_main.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_user_register.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_view_complaint_and_result.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/PUC/app/src/main/res/layout/complaint_adapter.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/PUC/app/src/main/res/layout/fragment_complaint.xml" value="0.24615384615384617" />
+        <entry key="..\:/AndroidStudioProjects/PUC/app/src/main/res/layout/fragment_gallery.xml" value="0.2501302761855133" />
+        <entry key="..\:/AndroidStudioProjects/PUC/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/PUC/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/PUC/app/src/main/res/layout/no_data.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/PUC/app/src/main/res/layout/officer_adapter.xml" value="0.19814814814814816" />
+        <entry key="..\:/AndroidStudioProjects/PUC/app/src/main/res/layout/user_adapter.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/PUC/app/src/main/res/layout/viewcomplaint_adapter.xml" value="0.20512820512820512" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/drawable/circle1.xml" value="0.179" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/drawable/circle_background.xml" value="0.196" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_admin.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_admin_main.xml" value="0.264" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_admin_user.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_beemakulam.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_checkout.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_devasathanam.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_echangal.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_elayanagaram.xml" value="0.2359375" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_full_imager.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_girisamuthiram.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_gollakuppam.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_govindapuram.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_jaffarabad.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_kothakottai.xml" value="0.2359375" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_madhanancheri.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_marimanikuppam.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_mittur.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_naickanur.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_narasingapuram.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_nekkanamalai.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_nimmiyambattu.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_officers.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_officers_main.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_pallipattu.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_periyakurumbatheru.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_pethaveppambattu.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_poongulam.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_reddiur.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_sammanthikuppam.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_user_login.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_user_main.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_user_register.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_valayambattu.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_vallipattu.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_velathigamanibenda.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_vellakuttai.xml" value="0.21568627450980393" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/activity_vijilapuram.xml" value="0.21568627450980393" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/complaint_adapter.xml" value="0.2" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/fragment_complaint.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/fragment_dashboard.xml" value="0.2359375" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/fragment_gallery.xml" value="0.2359375" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/no_data.xml" value="0.20512820512820512" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/layout/user_adapter.xml" value="0.2" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/PUC/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
+        <entry key="..\:/Users/admin/Downloads/admob-native-advanced-feed-master/PUC/app/src/main/res/layout/activity_admin.xml" value="0.1" />
+        <entry key="..\:/Users/admin/Downloads/admob-native-advanced-feed-master/PUC/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/admin/Downloads/admob-native-advanced-feed-master/PUC/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/admin/Downloads/admob-native-advanced-feed-master/PUC/app/src/main/res/layout/activity_user_login.xml" value="0.25" />
+        <entry key="..\:/Users/admin/Downloads/admob-native-advanced-feed-master/PUC/app/src/main/res/layout/activity_user_main.xml" value="0.2359375" />
+        <entry key="..\:/Users/admin/Downloads/admob-native-advanced-feed-master/PUC/app/src/main/res/layout/activity_user_register.xml" value="0.2359375" />
+        <entry key="..\:/Users/admin/Downloads/admob-native-advanced-feed-master/PUC/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
